@@ -1,0 +1,168 @@
+{
+  "id": "728ec959-31a0-4739-9e06-65f3e3c76529",
+  "version": "2.0",
+  "name": "task2",
+  "url": "https://aktu.ac.in/",
+  "tests": [{
+    "id": "5df64920-8221-4f6b-8a29-5e84fd92be01",
+    "name": "Task1",
+    "commands": [{
+      "id": "df26f74c-83b8-45b5-ad1e-cb8509257f65",
+      "comment": "",
+      "command": "open",
+      "target": "https://aktu.ac.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a64b3280-ffc9-46fd-9bdc-64c6d955fe6b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "782x823",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb466c95-470c-454b-aeb7-16cb4cb1aee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ext-lnks",
+      "targets": [
+        ["css=.ext-lnks", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d81dbf0f-19f2-4c30-adbb-4056ad4f4f08",
+      "comment": "",
+      "command": "click",
+      "target": "css=#onload .close",
+      "targets": [
+        ["css=#onload .close", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='onload']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cefcd87f-1f59-46b9-91ff-015c5aeac25a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topbar-icon > .glyphicon",
+      "targets": [
+        ["css=.topbar-icon > .glyphicon", "css:finder"],
+        ["xpath=//header[@id='masthead']/div/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594e1886-058a-4749-b11b-0b9dc5324bc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Downloads",
+      "targets": [
+        ["linkText=Downloads", "linkText"],
+        ["css=#top-bar > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Downloads')]", "xpath:link"],
+        ["xpath=//ul[@id='top-bar']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'downloads.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Downloads')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "078b4e46-74e3-4e7f-8aa2-c8407b223691",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Circulars",
+      "targets": [
+        ["linkText=Circulars", "linkText"],
+        ["css=.extlnks:nth-child(2) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//div[@id='jquery-accordion-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'circulars.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86dc3267-e4c7-4711-b8ec-979c390dcd74",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,388.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "538e93e0-11ae-4586-a6f6-60afe1e4e60c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d484d11-0f0e-4518-99b9-f99637d063e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=rpAttachments_hlpkAttachment_0",
+      "targets": [
+        ["id=rpAttachments_hlpkAttachment_0", "id"],
+        ["linkText=देखें", "linkText"],
+        ["css=#rpAttachments_hlpkAttachment_0", "css:finder"],
+        ["xpath=//a[contains(text(),'देखें')]", "xpath:link"],
+        ["xpath=//a[@id='rpAttachments_hlpkAttachment_0']", "xpath:attributes"],
+        ["xpath=//table[@id='tbList']/tbody/tr/td[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://fms.aktu.ac.in/Resources/Attachments/Circular/164591zyiitiq0.pdf']", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'देखें')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win280",
+      "windowTimeout": 2000
+    }, {
+      "id": "e2d180ea-0efa-4c35-ad32-14397b265b0a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43c6cc75-64d7-4002-9b51-338a62f68834",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win280}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d91a7e3-9980-456a-a75b-13643e4d569c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3031324-b12a-40c2-bca9-90a8c217c860",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "164ba4d8-f37a-4ad0-965c-badcbd5aeeaa",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win280}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1f582d83-11a2-4869-b66c-ceeaae6eeb49",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5df64920-8221-4f6b-8a29-5e84fd92be01"]
+  }],
+  "urls": ["https://aktu.ac.in/"],
+  "plugins": []
+}
